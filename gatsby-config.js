@@ -17,6 +17,10 @@ module.exports = {
       age: 75,
       name: 'First Officer'
     },
+    twitterUsername: "@blug",
+    image: "/william.gif",
+    siteUrl: "https://blissful-wozniak-f24279.netlify.com",
+
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -40,5 +44,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`,
   ]
 }
