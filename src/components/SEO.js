@@ -32,7 +32,7 @@ const SEO = ({title, description}) => {
       <meta name="description" content={description || siteDesc} />
       <meta name="image" content={image} />
       {/* twitter card */}
-      <meta name="twitter:card" content="summary_medium_image" />
+      <meta name="twitter:card" content="summary" />
       <meta name="twitter:creator" content={twitterUsername} />
       <meta name="twitter:title" content={siteTitle} />
       <meta name="twitter:description" content={siteDesc} />
