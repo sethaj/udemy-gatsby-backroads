@@ -45,5 +45,14 @@ module.exports = {
     },
     `gatsby-plugin-playground`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://blissful-wozniak-f24279.netlify.com',
+        sitemap: 'https://blissful-wozniak-f24279.netlify.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
   ]
 }
